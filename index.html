@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sa Young Music</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="images/s-favicon.png">
+    <!-- Using Roboto as a close match to the clean sans-serif in design if Helvetica is not available locally, 
+         but we will specify Helvetica Neue in CSS -->
+    <!-- Microsoft Clarity Tracking -->
+    <script type="text/javascript">
+        (function(c,l,a,r,i,t,y){
+            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
+            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+        })(window, document, "clarity", "script", "YOUR_CLARITY_PROJECT_ID");
+    </script>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="images/sa-logo.png" alt="SAY Entertainment">
+            </a>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <ul class="nav-links">
+                <li class="active"><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#music">Music</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="store.html">Store</a></li>
+                <!-- <li><a href="shop.html">Shop</a></li> -->
+            </ul>
+            <a href="mailto:Sayoungentertainment@gmail.com" class="btn-primary nav-cta">Bookings</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-bg" style="background-image: url('images/home-bg.jpeg');"></div>
+        <div class="hero-content container">
+            <h1>Experience Afro-Twist</h1>
+            <div class="hero-buttons">
+                <a href="https://youtube.com/playlist?list=PLdlghEn7RRZesEW0hyJ80JGNViZ9ZDvso&si=u5d3OIBtyhS8q7Z8"
+                    class="btn-primary" target="_blank" rel="noopener noreferrer"><i class="ri-play-fill"></i> Play Now</a>
+                <a href="#about" class="btn-secondary">Explore</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Featured Event Section -->
+    <section id="featured-event" class="featured-event">
+        <div class="container featured-layout">
+            <div class="date-badge">
+                <span class="day">28</span>
+                <span class="month">MAR</span>
+                <span class="year">2026</span>
+            </div>
+
+            <div class="featured-content">
+                <div class="event-meta">
+                    <span class="label">Upcoming Events</span>
+                    <div class="countdown" id="event-countdown">
+                        <div class="time-unit">
+                            <span class="number" id="days">00</span>
+                            <span class="label">DAYS</span>
+                        </div>
+                        <div class="time-unit">
+                            <span class="number" id="hours">00</span>
+                            <span class="label">HOURS</span>
+                        </div>
+                        <div class="time-unit">
+                            <span class="number" id="minutes">00</span>
+                            <span class="label">MINS</span>
+                        </div>
+                        <div class="time-unit">
+                            <span class="number" id="seconds">00</span>
+                            <span class="label">SECS</span>
+                        </div>
+                    </div>
+                </div>
+
+                <h2>ROMI WITH D WAVE</h2>
+                <p class="event-desc" style="max-width: 600px; margin-bottom: 30px; opacity: 0.9; line-height: 1.6;">
+                    DJ Romie Entertainment presents Romie With D Wave: Splash Edition — a full-day event at Sunrise Water Park on March 28. One ticket gets you all rides and full access to the park, live performances, and non-stop DJ sets throughout the day.
+                </p>
+
+                <div class="featured-actions">
+                    <a href="events.html" class="btn-primary"
+                        style="background-color: #000; color: #fff; box-shadow: 0 4px 12px rgba(0,0,0,0.3);">Event
+                        Details <i class="ri-arrow-right-line"></i></a>
+                    <a href="https://paystack.shop/sunrise-waterpark" class="btn-primary"
+                        target="_blank" rel="noopener noreferrer"
+                        style="background-color: #7b1c1c; color: #fff; box-shadow: 0 4px 12px rgba(123, 28, 28, 0.3);">Get
+                        Tickets <i class="ri-ticket-2-line"></i></a>
+                </div>
+                <div style="margin-top: 20px;">
+                    <a href="events.html"
+                        style="color: #fff; text-decoration: underline; font-size: 0.9rem; opacity: 0.8;">View More
+                        Upcoming Events</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="">
+                    <div class="">
+                        <img src="images/about-img.jpeg" alt="Sa-Young Afro-Twist Artist">
+                    </div>
+                </div>
+                <div class="about-text-side">
+                    <span class="section-tag">About Artist</span>
+                    <h2>Who is Sa-Young?</h2>
+                    <p class="bio-intro" style="margin-bottom: 20px;">
+                        Sa-Young is an Afro-fusion artist crafting music where rhythm meets reflection, blending
+                        Afrobeats, Alté, and global influences. His sound, which he calls Afro-Twist, is built on
+                        percussive grooves, melodic storytelling, and a deep connection to culture and identity.
+                    </p>
+                    <p class="bio-intro" style="margin-bottom: 20px;">
+                        His music moves between two worlds: songs that make you dance, and songs that make you think.
+                    </p>
+                    <p class="bio-intro" style="margin-bottom: 20px;">
+                        After nearly a decade away from the spotlight, Sa-Young returned with renewed clarity and
+                        purpose, releasing two EPs in two years and re-establishing his voice through vibrant,
+                        intentional music.
+                    </p>
+                    <p class="bio-intro" style="margin-bottom: 20px;">
+                        He has shared stages with Afrobeats icons Kizz Daniel, Chike, and Buju, and performed at
+                        Blastfest Seattle alongside Adekunle Gold, Wande Coal, and Odumodublvck.
+                    </p>
+                    <p class="bio-intro" style="margin-bottom: 40px;">
+                        He also performs with The Tribe Band, delivering live experiences that blend the energy of
+                        Afrobeats with the richness of live instrumentation.
+                    </p>
+
+                    <div class="about-actions">
+                        <a href="mailto:sayoungentertainment@gmail.com" class="btn-primary">Book Sa-Young</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Music Section -->
+    <section id="music" class="music">
+        <video autoplay muted loop playsinline class="music-bg-video">
+            <source src="images/say-bg-vid.mp4" type="video/mp4">
+        </video>
+        <div class="music-overlay"></div>
+        <div class="container music-layout">
+            <div class="music-content">
+                <span class="pill-tag">TUNE IN</span>
+                <h2>The Sa-Young Experience</h2>
+                <p>From the studio to the stage, Sa-Young's music moves you.
+                    Stream, watch the band in rehearsal,
+                    and see what Afro-Fusion looks like when it's truly alive.</p>
+                <a href="https://ffm.bio/sa-young" class="btn-pink" target="_blank" rel="noopener noreferrer">Listen Now <span class="icon"><i
+                            class="ri-play-circle-fill"></i></span></a>
+            </div>
+            <div class="music-grid">
+                <div class="album-card">
+                    <img src="images/Normally.png" alt="Normally - Sa Young">
+                    <div class="album-info-row">
+                        <div class="details">
+                            <h3>Normally</h3>
+                            <p>Sa Young</p>
+                        </div>
+                        <a href="https://too.fm/njkvdqq" class="btn-outline-small" target="_blank" rel="noopener noreferrer">Listen Now</a>
+                    </div>
+                </div>
+                <div class="album-card">
+                    <img src="images/habibty.png" alt="Habibty - Sa Young">
+                    <div class="album-info-row">
+                        <div class="details">
+                            <h3>Habibti</h3>
+                            <p>Sa Young</p>
+                        </div>
+                        <a href="https://too.fm/5gq3ma" class="btn-outline-small" target="_blank" rel="noopener noreferrer">Listen Now</a>
+                    </div>
+                </div>
+                <div class="album-card">
+                    <img src="images/Shutdown.png" alt="Shutdown - Sa Young">
+                    <div class="album-info-row">
+                        <div class="details">
+                            <h3>Shutdown</h3>
+                            <p>Sa Young</p>
+                        </div>
+                        <a href="https://too.fm/pjmeea9" class="btn-outline-small" target="_blank" rel="noopener noreferrer">Listen Now</a>
+                    </div>
+                </div>
+                <div class="album-card">
+                    <img src="images/spotify-logo.png" alt="This Is Sa-Young - Spotify">
+                    <div class="album-info-row">
+                        <div class="details">
+                            <h3>This Is Sa-Young</h3>
+                            <p>Spotify Playlist</p>
+                        </div>
+                        <a href="https://open.spotify.com/playlist/37i9dQZF1DZ06evO2qwWEe?si=DwOPAp73TPOxHLAFjE0j2A"
+                            class="btn-outline-small" target="_blank" rel="noopener noreferrer">Save Playlist</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- Work Together Section -->
+    <section id="work-together" class="work-together parallax-bg"
+        style="background-image: url('images/work-withme-image.JPG');">
+        <div class="container work-content">
+            <a href="mailto:Sayoungentertainment@gmail.com" class="btn-gold">Let's Connect <i
+                    class="ri-mail-line"></i></a>
+        </div>
+    </section>
+
+    <!-- Main Footer -->
+    <footer class="main-footer">
+        <div class="container footer-content">
+            <div class="footer-branding">
+                <a href="#" class="footer-logo">
+                    <img src="images/sa-logo.png" alt="SAY Entertainment">
+                </a>
+                <p class="footer-tagline">Music. Vibes. Culture.</p>
+                <div class="footer-social-simple">
+                    <a href="https://www.instagram.com/youngon_it?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D"
+                        aria-label="Instagram" target="_blank" rel="noopener noreferrer"><i class="ri-instagram-line"></i></a>
+                    <a href="https://www.tiktok.com/@youngon_it?is_from_webapp=1&sender_device=pc"
+                        aria-label="TikTok" target="_blank" rel="noopener noreferrer"><i class="ri-tiktok-line"></i></a>
+                    <a href="https://youtube.com/@youngon_it?skip_registered_account_check=true" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i
+                            class="ri-youtube-line"></i></a>
+                    <a href="https://open.spotify.com/artist/49BRtBWW4eg2zZUoODNZS1" aria-label="Spotify" target="_blank" rel="noopener noreferrer"><i
+                            class="ri-spotify-line"></i></a>
+                    <a href="https://music.apple.com/us/artist/sa-young/956130920" aria-label="Apple Music" target="_blank" rel="noopener noreferrer"><i
+                            class="ri-apple-line"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4>EXPLORE</h4>
+                <a href="#about">About</a>
+                <a href="#music">Music</a>
+                <a href="events.html">Upcoming Events</a>
+                <a href="store.html">Store</a>
+            </div>
+
+            <div class="footer-nav-col">
+                <h4>CONNECT</h4>
+                <a href="partnerships.html">Partnerships</a>
+                <a href="press.html">Press & Media</a>
+                <a href="mailto:Sayoungentertainment@gmail.com?subject=EPK%20Request">Contact for EPK</a>
+                <a href="mailto:Sayoungentertainment@gmail.com" class="footer-btn-outline">BOOK SA-YOUNG</a>
+            </div>
+
+            <div class="footer-subscription">
+                <h4>JOIN THE COMMUNITY</h4>
+                <p>Get updates on shows, new releases, and exclusive content.</p>
+                <form class="footer-form-premium">
+                    <input type="email" placeholder="Enter your email...">
+                    <button type="submit"><i class="ri-arrow-right-line"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container footer-bottom-flex">
+                <p>&copy; 2026 SAY Entertainment. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
